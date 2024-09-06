@@ -9,7 +9,7 @@ public class dbscn {
         if (connection == null) {
             String URL = "jdbc:mysql://localhost:3306/susan";
             String USERNAME = "root";
-            String PASSWORD = "Zerominde1.";
+            String PASSWORD = "ENTERYOURPASSWORD";
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
